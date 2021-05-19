@@ -1,5 +1,5 @@
 # CALCULATOR
-A Turing College assignement
+A Turing College assignment
 
 ## Introduction
 A programme contains Calculator class, which enables a user to perform basic arithmetic  operations.
