@@ -15,7 +15,7 @@ calculator.root(n)
 calculator.reset()
 
 ## Installation
-pip install git+https://github.com/ErikaKriks/calculator
+pip install git+https://github.com/ErikaKriks/CALCULATOR
 
 ## Configuration
 Additional packages must be installed.
