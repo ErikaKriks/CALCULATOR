@@ -8,22 +8,26 @@ x = Calculator()
 
 @given(n=st.floats(min_value=-10000, max_value=100000))
 def test_add(n):
+    x.reset()
     res = x.add(n)
     assert res == n
 
 
 def test_multiplication(n):
+    x.reset()
     res: int = x.add(1)
     res = x.multiply(n)
     assert res == n
 
 
 def test_subtraction(n):
+    x.reset()
     res = x.subtact(n)
     assert res == -n
 
 
 def test_division(n):
+    x.reset()
     res: int = x.add(100)
     res = x.devide(n)
     try:
@@ -33,6 +37,7 @@ def test_division(n):
 
 
 def test_root(n):
+    x.reset()
     res = x.add(100)
     res = x.root(n)
     try:
@@ -42,6 +47,7 @@ def test_root(n):
 
 
 def test_reset():
+    x.reset()
     res = x.reset()
     assert res == 0
 
